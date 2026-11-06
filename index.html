@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Birthday Surprise ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- First Page -->
+    <div class="container" id="firstPage">
+
+        <h1>Hey Birthday Star! 🎂</h1>
+
+        <h2>Are you ready for your gift? 🎁</h2>
+
+        <p>I have something special for you!</p>
+
+        <button onclick="yesClicked()">YES ❤️</button>
+
+        <button onclick="noClicked()">NO 🙈</button>
+
+        <p id="message"></p>
+
+    </div>
+
+
+    <!-- Photo Page -->
+    <div class="container hidden" id="photoPage">
+
+        <h1>A Little Journey of Memories ❤️</h1>
+
+        <p id="photoCount">Memory 1</p>
+
+        <img id="photo"
+             src="photos/photo1.jpg"
+             onclick="showMessage()">
+
+        <h2 id="photoMessage"></h2>
+
+        <button id="nextButton"
+                onclick="nextPhoto()"
+                class="hidden">
+            Next Memory ➡️
+        </button>
+
+    </div>
+
+
+    <!-- Final Birthday Page -->
+    <div class="container hidden" id="finalPage">
+
+        <h1>🎉 HAPPY BIRTHDAY! 🎉</h1>
+
+        <h2>You are truly special! ❤️</h2>
+
+        <p>
+            May your life be filled with happiness,
+            laughter and beautiful memories.
+        </p>
+
+        <h1>Keep Smiling! 🥰</h1>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>

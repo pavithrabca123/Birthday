@@ -1,0 +1,67 @@
+
+body {
+    background: linear-gradient(
+        to right,
+        #ffdde1,
+        #ee9ca7
+    );
+
+    font-family: Arial;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 500px;
+    margin: 50px auto;
+    box-shadow: 0 5px 20px #888;
+}
+
+h1 {
+    color: #e84375;
+}
+
+h2 {
+    color: #d63384;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+}
+
+button {
+    background: #ff4f81;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin: 10px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #d63384;
+}
+
+img {
+    width: 100%;
+    max-height: 350px;
+    object-fit: contain;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+#photoMessage {
+    color: #e84375;
+    margin-top: 20px;
+}
