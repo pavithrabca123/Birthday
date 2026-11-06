@@ -1,9 +1,9 @@
 
 let photos = [
-    ""D:\pavithra\photo1.jpeg"",
-    ""D:\pavithra\photo2.jpeg"",
-    ""D:\pavithra\photo3.jpeg"",
-    ""D:\pavithra\photo4.jpeg""
+    "photo1.jpeg",
+    "photo2.jpeg",
+    "photo3.jpeg",
+    "photo4.jpeg"
 ];
 
 let messages = [
